@@ -200,7 +200,7 @@ bool Init(lua_State *L)
 	io.Fonts->TexID = NULL;
 
 	io.IniFilename = NULL;
-	g_iniPath = std::string("/imgui.ini");
+	g_iniPath = std::string("./imgui.ini");
 	// g_iniPath = std::string("imgui.ini");
 	ImGui::LoadIniSettingsFromDisk(g_iniPath.c_str());
 
